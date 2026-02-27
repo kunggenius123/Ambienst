@@ -41,6 +41,7 @@ public class BeatsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
+    // Testing github change
 
 
     private static MediaPlayer mMediaPlayer = Singleton.getInstance();
