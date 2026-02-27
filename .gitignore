@@ -1,41 +1,52 @@
-# Ignore build output
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# ART/Dalvik VM files
+*.dex
+
+# Java class files
+*.class
+
+# Build folders
 /build/
-/app/build/
 /out/
 /gen/
+app/.cxx/
 
 # Gradle files
 .gradle/
-gradle.properties
-gradlew
-gradlew.bat
+build/
 
-# Android Studio project files
-.idea/
-*.iml
-*.iws
-*.ipr
-.cache/
-.build_file_index
-*.ninja
-
-# Local config (SDK paths)
+# Local configuration
 local.properties
 
 # Log files
 *.log
 
-# OS-specific
-.DS_Store
-Thumbs.db
+# Android Studio files
+.idea/
+*.iml
+*.iws
+*.ipr
 
-# Keystore files (sensitive!)
+# Android Studio cache/index files
+cache/
+build_file_index
+*.ninja
+
+# Keystore files (very sensitive!)
 *.jks
 *.keystore
 
-# Audio files (huge)
-app/src/main/res/raw/*.mp3
-
-# Other generated or temporary files
+# Misc
 captures/
 .externalNativeBuild/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Large raw audio (keep locally)
+app/src/main/res/raw/*.mp3
