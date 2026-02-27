@@ -94,7 +94,7 @@ public class SavedFragment extends Fragment {
 
                             //If another beat card is clicked, don't stop the song but reset and play the other song
                             mMediaPlayer.reset();
-                            mainActivity.playIndividualCardSound(savedCard, "beat");
+                            mainActivity.playIndividualCardSound(savedCard, "beat", savedSeekBar);
                             currentCard = savedCard;
 
                         }
@@ -104,7 +104,7 @@ public class SavedFragment extends Fragment {
                     isPlaying = false;
                 }
                 else{
-                    mainActivity.playIndividualCardSound(savedCard, "beat");
+                    mainActivity.playIndividualCardSound(savedCard, "beat", savedSeekBar);
                     currentCard = savedCard;
                     isPlaying = true;
                 }

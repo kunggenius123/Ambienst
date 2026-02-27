@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }*/
 
-                playIndividualCardSound(mCard, "sample");
+                playIndividualCardSound(mCard, "sample", mainSeekBar);
 
             }
 
@@ -338,19 +338,19 @@ public class MainActivity extends AppCompatActivity {
         activeSeekBars.remove(seekBar);
     }
 
-    public void playIndividualCardSound(Card card, String type){
+    public void playIndividualCardSound(Card card, String type, SeekBar chosenSeekBar){
+
+        for(SeekBar seekBar : activeSeekBars){
+            seekBar.setVisibility(View.GONE);
+        }
+
+        SeekBar currentSeekBar = chosenSeekBar;
+
+        currentSeekBar.setVisibility(View.VISIBLE);
+
+        registerSeekBar(currentSeekBar);
 
         int sound = card.getmSound();
-
-        /*if (type.equals("sample")){
-            sound = card.getmSound();
-        }
-        else if(type.equals("beat")){
-            sound = card.getmRemix();
-        }
-        else{
-            sound = card.getmSound();
-        }*/
 
         playSound("android.resource://" + getPackageName() + "/" + sound, 100);
         Log.d("MediaPlayerDebug", "Resource Name: " + getResources().getResourceName(sound));

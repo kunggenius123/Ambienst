@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.SeekBar;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,6 +35,8 @@ public class RecommendFragment extends Fragment {
     private RecyclerView recyclerView;
     private BeatAdapter beatAdapter;
     private RecyclerView.LayoutManager layoutManager;
+
+    private SeekBar recommendSeekBar;
 
     private static MediaPlayer mMediaPlayer = Singleton.getInstance();
 
@@ -138,6 +141,30 @@ public class RecommendFragment extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(beatAdapter);
 
+        recommendSeekBar = view.findViewById(R.id.seekBarRecommend);
+
+        recommendSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+
+                //Makes sure the bar only seeks when a user clicks, otherwise the audio will stutter as it seeks everytime the audio progresses
+                if(fromUser && mMediaPlayer!=null){
+                    mMediaPlayer.seekTo(progress);
+
+                }
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
         beatAdapter.setOnItemClickListener(new BeatAdapter.OnItemClickListener() {
 
             boolean isPlaying = false;
@@ -163,7 +190,7 @@ public class RecommendFragment extends Fragment {
 
                             //If another beat card is clicked, don't stop the song but reset and play the other song
                             mMediaPlayer.reset();
-                            mainActivity.playIndividualCardSound(savedCard, "beat");
+                            mainActivity.playIndividualCardSound(savedCard, "beat", recommendSeekBar);
                             currentCard = savedCard;
 
                         }
@@ -173,7 +200,7 @@ public class RecommendFragment extends Fragment {
                     isPlaying = false;
                 }
                 else{
-                    mainActivity.playIndividualCardSound(savedCard, "beat");
+                    mainActivity.playIndividualCardSound(savedCard, "beat", recommendSeekBar);
                     currentCard = savedCard;
                     isPlaying = true;
                 }
@@ -184,6 +211,9 @@ public class RecommendFragment extends Fragment {
 
             }
         });
+
+
+
         return view;
     }
 }

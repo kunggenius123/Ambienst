@@ -41,9 +41,6 @@ public class BeatsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
-    // Testing github change
-
-
     private static MediaPlayer mMediaPlayer = Singleton.getInstance();
 
     private RecyclerView recyclerView;
@@ -138,7 +135,7 @@ public class BeatsFragment extends Fragment {
 
                             //If another beat card is clicked, don't stop the song but reset and play the other song
                             mMediaPlayer.reset();
-                            mainActivity.playIndividualCardSound(beatCard, "beat");
+                            mainActivity.playIndividualCardSound(beatCard, "beat", beatsSeekBar);
                             currentCard = beatCard;
 
                         }
@@ -148,7 +145,7 @@ public class BeatsFragment extends Fragment {
                     isPlaying = false;
                 }
                 else{
-                    mainActivity.playIndividualCardSound(beatCard, "beat");
+                    mainActivity.playIndividualCardSound(beatCard, "beat", beatsSeekBar);
                     currentCard = beatCard;
                     isPlaying = true;
                 }
