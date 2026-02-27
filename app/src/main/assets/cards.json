@@ -1,0 +1,211 @@
+{
+  "cards": [
+    {
+      "sample": {
+        "image": "interstellar_movie_wide",
+        "title": "Interstellar",
+        "description": "We used to look up at the sky and wonder at our place in the stars",
+        "sound": "interstellar"
+      },
+      "beats": [
+        {
+          "image": "ign1s_logo",
+          "title": "Interstellar prod.Ign1s",
+          "bpm": 136,
+          "description": "Travis Scott Type Beat",
+          "sound": "interstellar_beat_ign1s",
+          "tags": ["Travis Scott", "Nostalgic", "Chill", "Inspirational"]
+        },
+        {
+          "image": "interstellar_thumbnail_andyr",
+          "title": "Interstellar prod.Andyr",
+          "bpm": 202,
+          "description": "Lil Durk Type Beat",
+          "sound": "interstellar_beat_andyr",
+          "tags": ["Lil Durk", "Piano", "Emotional", "Nostalgic"]
+        },
+        {
+          "image": "interstellar_movie_wide",
+          "title": "Interstellar prod.frgtn",
+          "bpm": 140,
+          "description": "Travis Scott x Han Zimmer Type Beat",
+          "sound": "interstellar_beat_frgtn",
+          "tags": ["Travis Scott", "Han Zimmer", "Inspirational", "Cinematic", "Strings", "Hard"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "killingmesoftly_poster",
+        "title": "Killing Me Softly",
+        "description": "Strumming my pain with his fingers",
+        "sound": "killingmesoftly"
+      },
+      "beats": [
+        {
+          "image": "killing_me_softly_jaaybo",
+          "title": "Killing Me Softly prod.Ign1s",
+          "bpm": 94,
+          "description": "EBK JaayBo Type Beat",
+          "sound": "killingmesoftly_beat_ign1s",
+          "tags": ["Cali", "EBK JaayBo", "Soulful", "Hard"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "otw_thumbnail",
+        "title": "Killing Me Softly prod.Sav",
+        "description": "Classic soul meets modern rap samples",
+        "sound": "ontheway"
+      },
+
+      "beats": [
+        {
+          "image": "R.drawable.killingmesoftly_poster",
+          "title": "Killing Me Softly prod.Sav",
+          "bpm": 100,
+          "description": "Flint Type Beat",
+          "sound": "R.raw.killingmesoftly_beat_sav",
+          "tags": ["Detroit", "Peezy", "Bouncy", "Soulful"]
+        },
+        {
+          "image": "R.drawable.killingmesoftly_poster",
+          "title": "Killing Me Softly prod. Tal6y Beats II",
+          "bpm": 100,
+          "description": "Flint Type Beat",
+          "sound": "R.raw.killingmesoftly_beat_sav",
+          "tags": ["Trap", "21 Savage", "Dark", "Soulful", "Piano"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "R.drawable.goodfellas_poster",
+        "title": "Goodfellas",
+        "description": "We always called each other Goodfellas",
+        "sound": "R.raw.sincerely"
+      },
+      "beats": [
+        {
+          "image": "R.drawable.verde_babii_nerd",
+          "title": "Sincerely prod.Ign1s",
+          "bpm": 92,
+          "description": "EBK Bckdoe Type Beat",
+          "sound": "R.raw.sincerely_beat",
+          "tags": ["Cali", "Verde Babii", "Upbeat", "Bouncy"]
+        },
+        {
+          "image": "R.drawable.goodfellas_poster",
+          "title": "Goodfellas prod.Sav",
+          "bpm": 98,
+          "description": "Flint Type Beat",
+          "sound": "R.raw.goodfellas_beat_sav",
+          "tags": ["Flint", "Rio", "Detroit", "Cinematic", "Strings", "Bouncy", "Dark"]
+        },
+        {
+          "image": "R.drawable.goodfellas_arrest",
+          "title": "Goodfellas prod. Floc Rosa",
+          "bpm": 137,
+          "description": "Future Type Beat",
+          "sound": "R.raw.goodfellas_type_beat_floc_rosa",
+          "tags": ["Trap", "Future", "Hard", "Dark", "Piano"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "R.drawable.geeked_up_thumbnail",
+        "title": "Geeked Up",
+        "description": "Remix!",
+        "sound": "R.raw.geeked_up"
+      },
+      "beats": [
+        {
+          "image": "R.drawable.geeked_up_thumbnail",
+          "title": "Geeked Up prod.Ign1s",
+          "bpm": 97,
+          "description": "EBK Bckdoe Type Beat",
+          "sound": "R.raw.geeked_up_beat_ign1s",
+          "tags": ["EBK Bckdoe", "Flint", "Cali", "Hard", "Bouncy"]
+        },
+        {
+          "image": "R.drawable.geeked_up_thumbnail",
+          "title": "Geeked Up prod.Reuel",
+          "bpm": 104,
+          "description": "Flint Type Beat",
+          "sound": "R.raw.geeked_up_beat_reuel",
+          "tags": ["Detroit", "Rio", "Bouncy", "Piano", "Hard"]
+        },
+        {
+          "image": "R.drawable.geeked_up_thumbnail",
+          "title": "Geeked Up prod.X5",
+          "bpm": 91,
+          "description": "Von Off 1700 Type Beat",
+          "sound": "R.raw.geeked_up_beat_vonoff1700",
+          "tags": ["Trap", "Chicago", "Von Off 1700", "Bouncy"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "R.drawable.zoey101_thumbnail",
+        "title": "Zoey 101",
+        "description": "Disney",
+        "sound": "R.raw.zoey101"
+      },
+      "beats": [
+        {
+          "image": "R.drawable.zoey101_thumbnail",
+          "title": "Zoey 101 prod. Ign1s",
+          "bpm": 116,
+          "description": "Cash Kidd Type Beat",
+          "sound": "R.raw.zoey101_ign1s",
+          "tags": ["Detroit", "Cash Kidd", "Upbeat", "Bouncy", "Hard"]
+        },
+        {
+          "image": "R.drawable.zoey101_thumbnail",
+          "title": "Zoey 101 prod. Kay Archon",
+          "bpm": 118,
+          "description": "Chopped Screwed Type Beat",
+          "sound": "R.raw.zoey101_beat_archon",
+          "tags": ["Trap", "Upbeat", "Bouncy", "Hard"]
+        },
+        {
+          "image": "R.drawable.zoey101_thumbnail",
+          "title": "Zoey 101 prod. @Lowkeymali x @prodyeahitis",
+          "bpm": 144,
+          "description": "sha ek x edot baby sample drill type beat",
+          "sound": "R.raw.zoey101_beat_drill",
+          "tags": ["Drill", "Hard", "Upbeat", "Bouncy"]
+        }
+      ]
+    },
+    {
+      "sample": {
+        "image": "R.drawable.should_have_cheated_thumbnail",
+        "title": "Should Have Cheated",
+        "description": "Musn't you accuse me of",
+        "sound": "R.raw.should_have_cheated"
+      },
+      "beats": [
+        {
+          "image": "R.drawable.should_have_cheated_thumbnail",
+          "title": "Should Have Cheated prod. @tazzomadeit x @prod.lulzaye",
+          "bpm": 89,
+          "description": "EBK JaayBo Type Beat",
+          "sound": "R.raw.should_have_cheated_jaaybo",
+          "tags": ["Cali", "EBK JaayBo", "Bouncy", "Dark"]
+        },
+        {
+          "image": "R.drawable.should_have_cheated_thumbnail",
+          "title": "Should Have Cheated prod. Buddy Loves Beatz",
+          "bpm": 80,
+          "description": "R&B Sample Type Beat",
+          "sound": "R.raw.should_have_cheated_buddy_loves_beatz",
+          "tags": ["Trap", "Bouncy", "Hard", "Dark"]
+        }
+      ]
+    }
+  ]
+}

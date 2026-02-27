@@ -1,0 +1,30 @@
+# Android build files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+/build/
+/out/
+/gen/
+/.gradle/
+app/.cxx/
+.externalNativeBuild/
+
+# IDE / OS files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Logs, caches, keystores
+*.log
+cache/
+build_file_index
+*.ninja
+*.jks
+*.keystore
+local.properties
+captures/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Samples"
+        android:icon="@drawable/baseline_audiotrack_24"
+        android:id="@+id/samples"/>
+    <!--item android:title="Beats"
+        android:icon="@drawable/ic_album_black"
+        android:id="@+id/beats"/-->
+    <item android:title="Saved"
+        android:icon="@drawable/baseline_library_music_24"
+        android:id="@+id/saved"/>
+
+</menu>

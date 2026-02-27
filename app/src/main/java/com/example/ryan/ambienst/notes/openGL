@@ -1,0 +1,6 @@
+1. For OpenGL you need to create 3 classes
+	1. OpenGLView
+	2. OpenGLRenderer
+		- You need to set the interface as (aka implement) android.opengl.GLSurfaceView.Renderer
+
+2. Add the open OpenGLView class as an attribute in your layout XML file
